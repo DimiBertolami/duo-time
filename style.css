@@ -1,0 +1,32 @@
+body{
+    padding-bottom: 50px;
+}
+
+
+.lightMode{
+    background: blue;
+    color: yellow;
+}
+
+.darkMode{
+    background: yellow;
+    color: blue;
+}
+
+
+.mode{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    line-height: 47px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+.mode:hover{
+    cursor: pointer;
+}
+
