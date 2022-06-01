@@ -16,4 +16,7 @@ document.getElementById("modeSelect").addEventListener("click", function(){
         console.log("backflip!");
     }
 });
-
+document.getElementById('change1').innerHTML = "Lau is my team mate for this project";
+document.getElementById('change2').innerHTML = "Team player";
+document.getElementById('change3').innerHTML = "Friendly";
+document.getElementById('change4').innerHTML = "Ambitious";
