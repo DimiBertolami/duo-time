@@ -20,3 +20,11 @@ document.getElementById('change1').innerHTML = "Lau is my team mate for this pro
 document.getElementById('change2').innerHTML = "Team player";
 document.getElementById('change3').innerHTML = "Friendly";
 document.getElementById('change4').innerHTML = "Ambitious";
+const h3 = Array.from(document.getElementsByTagName('h3'));
+const originalH3 = [];
+h3.forEach(h => {
+    h.style.cursor = 'pointer';
+    originalH3[5].innerHTML = "Lau's hobbies are traveling, music, nature etc. ";
+    originalH3.push(h.textContent);
+    
+})
